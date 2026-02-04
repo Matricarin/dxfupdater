@@ -1,2 +1,5 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AcadDemo/AcadDemo.csproj" Id="e53d1f9c-bb36-4447-9221-9f3c0f736b69" />
+  </Folder>
 </Solution>
