@@ -8,6 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Samples\2408.dxf" />
+    <None Remove="Samples\2408_1.dxf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Samples\2408.dxf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\2408_1.dxf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ACadSharp" Version="3.4.2" />
   </ItemGroup>
 
